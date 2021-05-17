@@ -73,10 +73,14 @@ h1 {
     color: #FFFFFF;
     font-size: 25px;
     max-width: 483px;
-    max-height: 200px;
+    height: 200px;
     border-radius: 5px;
     margin-top: 67px;
     margin-left: 288px;
+}
+
+.quote p {
+    margin: 0;
 }
 
 .quote p:first-child {
@@ -87,9 +91,10 @@ h1 {
 }
 
 .quote p:last-child {
-    margin: 0;
     font-family: 'Roboto';
     font-size: 20px;
     font-weight: 400;
     text-align: right;
+    padding-right: 18px;
+    padding-top: 10px;
 }
