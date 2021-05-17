@@ -22,6 +22,8 @@ header {
     margin-left: 8.4%;
 }
 
+/* section howtowatch */
+
 .coursepoints {
     max-width: 39.7%;
 }
@@ -97,4 +99,88 @@ h1 {
     text-align: right;
     padding-right: 18px;
     padding-top: 10px;
+}
+
+/* section aboutcourse */
+
+.header2 h2 {
+    font-family: 'Roboto Slab';
+    font-size: 55px;
+    font-weight: 700;
+    margin-top: 173px;
+}
+
+.course_descrip_photo div:first-child {
+    max-width: 55%;
+    margin-right: 190px;
+}
+
+.course_descrip_photo {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.photo_lessons_comments {
+    display: flex;
+    align-items: center;
+    margin-top: 90px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.photo_lessons_comments div p {
+    max-width: 150px;
+    max-height: 39px;
+    margin-right: 95px;
+}
+
+.commentheader {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.photo_lessons_comments img {
+    margin-right: 132px;
+}
+
+.header3 h2 {
+    font-family: 'Roboto Slab';
+    font-size: 55px;
+    font-weight: 700;
+    margin-top: 162px;
+}
+
+.lessons_form_descrip {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 90px;
+    margin-bottom: 179px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.lessons_form_descrip div:first-child {
+    max-width: 223px;
+    max-height: 79px;
+    margin-right: 122px;
+}
+
+.lessons_form_descrip div:nth-child(2) {
+    max-width: 271px;
+    max-height: 149px;
+    margin-right: 113px;
+}
+
+.lessons_form_descrip div:last-child {
+    max-width: 245px;
+    max-height: 79px;
+}
+
+.formheader {
+    color: #1E4681;
+    font-size: 25px;
+    font-weight: 700;
 }
