@@ -11,27 +11,25 @@ body {
 
 header {
     margin: 0;
-    margin-left: 8.4%;
+    margin-left: 8%;
     margin-top: 21px;
 }
 
-#howtowatch, 
-#aboutcourse, 
-#lessonsform {
+#howtowatch, #aboutcourse, #lessonsform {
     margin: 0;
-    margin-left: 8.4%;
+    margin-left: 8%;
 }
 
 /* section howtowatch */
 
 .coursepoints {
-    max-width: 39.7%;
+    max-width: 47%;
 }
 
 .coursepoints ul {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin: 0;
     padding: 0;
     margin-top: 96px;
@@ -43,29 +41,36 @@ header {
 }
 
 .coursepoints ul li:nth-child(even) {
-    margin-right: 4.9%;
+    margin-right: 12%;
+}
+
+.coursepoints ul li:nth-child(odd) {
+    margin-right: 2%;
 }
 
 .header1_photo {
-    margin: 0;
-    padding: 0;
     margin-top: 29px;
-    max-width: 1074px;
-    font-size: 20px;
-    font-weight: 400;
+    max-width: 84%;
     display: flex;
+    justify-content: space-between;
+}
+
+.header1_photo div:first-child {
+    max-width: 58%;
+    font-size: 1.25em;
+    font-weight: 400;
 }
 
 h1 {
     font-family: 'Roboto Slab';
-    font-size: 80px;
+    font-size: 4em;
     font-weight: 700;
     margin: 0;
+    line-height: 100%;
 }
 
 .header1_photo p {
-    margin: 0;
-    max-width: 414px;
+    max-width: 72%;
 }
 
 .quote {
@@ -73,12 +78,13 @@ h1 {
     font-weight: 400;
     background-color: #1E4681;
     color: #FFFFFF;
-    font-size: 25px;
-    max-width: 483px;
+    font-size: 1.5em;
+    max-width: 39%;
     height: 200px;
     border-radius: 5px;
-    margin-top: 67px;
-    margin-left: 288px;
+    margin-top: 68px;
+    margin-left: 21%;
+    margin-bottom: 173px;
 }
 
 .quote p {
@@ -86,101 +92,89 @@ h1 {
 }
 
 .quote p:first-child {
-    padding-top: 19px; 
-    padding-left: 27px;
-    padding-right: 26px;
-
+    padding: 5% 5% 2% 5%; 
+    text-align: left;
 }
 
 .quote p:last-child {
     font-family: 'Roboto';
-    font-size: 20px;
+    font-size: 0.8em;
     font-weight: 400;
     text-align: right;
-    padding-right: 18px;
-    padding-top: 10px;
+    padding-right: 4%;
 }
 
 /* section aboutcourse */
 
-.header2 h2 {
-    font-family: 'Roboto Slab';
-    font-size: 55px;
-    font-weight: 700;
-    margin-top: 173px;
-}
-
-.course_descrip_photo div:first-child {
-    max-width: 55%;
-    margin-right: 190px;
-}
-
 .course_descrip_photo {
     font-family: 'Roboto';
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: 400;
+    max-width: 93%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+}
+
+h2 {
+    font-family: 'Roboto Slab';
+    font-size: 3.4em;
+    font-weight: 700;
+}
+
+.main_descrip {
+    max-width: 55%;
+}
+
+.main_descrip p {
+    margin-top: 0;
 }
 
 .photo_lessons_comments {
     display: flex;
     align-items: center;
-    margin-top: 90px;
-    font-size: 18px;
+    justify-content: space-between;
+    margin-top: 70px;
+    font-size: 1.1em;
     font-weight: 400;
+    max-width: 81%;
+    margin-bottom: 162px;
 }
 
-.photo_lessons_comments div p {
-    max-width: 150px;
-    max-height: 39px;
-    margin-right: 95px;
+.photo_lessons_comments div:first-child {
+    padding-right: 15%;
+}
+
+.photo_lessons_comments div {
+    max-width: 18%;
 }
 
 .commentheader {
-    font-size: 25px;
+    font-size: 1.4em;
     font-weight: 700;
+    margin-bottom: 0;
 }
 
-.photo_lessons_comments img {
-    margin-right: 132px;
-}
-
-.header3 h2 {
-    font-family: 'Roboto Slab';
-    font-size: 55px;
-    font-weight: 700;
-    margin-top: 162px;
-}
+/* section lessonsform */
 
 .lessons_form_descrip {
     display: flex;
     align-items: flex-start;
-    margin-top: 90px;
+    justify-content: space-between;
+    margin-top: 89px;
     margin-bottom: 179px;
-    font-size: 18px;
+    font-size: 1.1em;
     font-weight: 400;
-}
-
-.lessons_form_descrip div:first-child {
-    max-width: 223px;
-    max-height: 79px;
-    margin-right: 122px;
-}
-
-.lessons_form_descrip div:nth-child(2) {
-    max-width: 271px;
-    max-height: 149px;
-    margin-right: 113px;
-}
-
-.lessons_form_descrip div:last-child {
-    max-width: 245px;
-    max-height: 79px;
+    max-width: 81%;
 }
 
 .formheader {
     color: #1E4681;
-    font-size: 25px;
+    font-size: 1.4em;
     font-weight: 700;
+}
+
+.lessons_form_descrip div {
+    max-width: 28%;
+    max-height: 79px;
 }
