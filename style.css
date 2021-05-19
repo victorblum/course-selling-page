@@ -6,7 +6,8 @@ body {
 }
 
 #wrapper {
-    width: 1280px;
+    max-width: 1280px;
+    margin: auto;
 }
 
 header {
@@ -38,10 +39,11 @@ header {
 .coursepoints ul li {
     display: flex;
     align-items: flex-end;
+    font-size: 1.25rem;
 }
 
 .coursepoints ul li:nth-child(even) {
-    margin-right: 12%;
+    margin-right: 8%;
 }
 
 .coursepoints ul li:nth-child(odd) {
@@ -55,15 +57,15 @@ header {
     justify-content: space-between;
 }
 
-.header1_photo div:first-child {
+.header1_photo div {
     max-width: 58%;
-    font-size: 1.25em;
+    font-size: 1.25rem;
     font-weight: 400;
 }
 
 h1 {
     font-family: 'Roboto Slab';
-    font-size: 4em;
+    font-size: 5rem;
     font-weight: 700;
     margin: 0;
     line-height: 100%;
@@ -78,7 +80,7 @@ h1 {
     font-weight: 400;
     background-color: #1E4681;
     color: #FFFFFF;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     max-width: 39%;
     height: 200px;
     border-radius: 5px;
@@ -98,7 +100,7 @@ h1 {
 
 .quote p:last-child {
     font-family: 'Roboto';
-    font-size: 0.8em;
+    font-size: 1.2rem;
     font-weight: 400;
     text-align: right;
     padding-right: 4%;
@@ -108,7 +110,7 @@ h1 {
 
 .course_descrip_photo {
     font-family: 'Roboto';
-    font-size: 1.5em;
+    font-size: 1.5rem;
     font-weight: 400;
     max-width: 93%;
     display: flex;
@@ -118,7 +120,7 @@ h1 {
 
 h2 {
     font-family: 'Roboto Slab';
-    font-size: 3.4em;
+    font-size: 3.4rem;
     font-weight: 700;
 }
 
@@ -135,22 +137,22 @@ h2 {
     align-items: center;
     justify-content: space-between;
     margin-top: 70px;
-    font-size: 1.1em;
+    font-size: 1.1rem;
     font-weight: 400;
-    max-width: 81%;
+    max-width: 79%;
     margin-bottom: 162px;
 }
 
 .photo_lessons_comments div:first-child {
-    padding-right: 15%;
+    margin-right: 13%;
 }
 
 .photo_lessons_comments div {
-    max-width: 18%;
+    max-width: 16%;
 }
 
 .commentheader {
-    font-size: 1.4em;
+    font-size: 1.55rem;
     font-weight: 700;
     margin-bottom: 0;
 }
@@ -163,14 +165,14 @@ h2 {
     justify-content: space-between;
     margin-top: 89px;
     margin-bottom: 179px;
-    font-size: 1.1em;
+    font-size: 1.1rem;
     font-weight: 400;
     max-width: 81%;
 }
 
 .formheader {
     color: #1E4681;
-    font-size: 1.4em;
+    font-size: 1.55rem;
     font-weight: 700;
 }
 
@@ -178,3 +180,167 @@ h2 {
     max-width: 28%;
     max-height: 79px;
 }
+
+/* @media tablet */
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+
+/* section howtowatch */
+
+.coursepoints ul {
+    margin-top: 56px;
+}
+
+.coursepoints ul li {
+    font-size: 0.75rem;
+}
+
+.header1_photo {
+    margin-top: 8px;
+}
+
+.header1_photo div {
+    font-size: 0.75rem;
+}
+
+h1 {
+    font-size: 2.87rem;
+}
+
+.quote {
+    font-size: 0.87rem;
+    height: 116px;
+    border-radius: 2.9px;
+    margin-top: 39px;
+    margin-bottom: 100px;
+}
+
+.quote p:last-child {
+    font-size: 0.75rem;
+}
+
+/* section aboutcourse */
+
+.course_descrip_photo {
+    font-size: 0.87rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.photo_lessons_comments {
+    margin-top: 30px;
+    font-size: 0.68rem;
+    margin-bottom: 94px;
+}
+
+.commentheader {
+    font-size: 0.93rem;
+}
+
+/* section lessonsform */
+
+.lessons_form_descrip {
+    margin-top: 51px;
+    margin-bottom: 103px;
+    font-size: 0.68rem;
+}
+
+.formheader {
+    font-size: 0.93rem;
+}
+
+.lessons_form_descrip div {
+    max-height: 45px;
+}
+}
+
+/* @media mobile */
+
+@media screen and (max-width: 991px) {
+
+    /* section howtowatch */
+    
+    .coursepoints ul {
+        margin-top: 47px;
+    }
+    
+    .coursepoints ul li {
+        font-size: 0.62rem;
+    }
+    
+    .header1_photo {
+        margin-top: 8px;
+        flex-wrap: wrap;
+    }
+    
+    .header1_photo div {
+        font-size: 0.62rem;
+    }
+    
+    h1 {
+        font-size: 2.31rem;
+    }
+    
+    .quote {
+        font-size: 0.68rem;
+        height: 93px;
+        border-radius: 2.3px;
+        margin-top: 39px;
+        margin-bottom: 75px;
+        margin-left: 0;
+    }
+    
+    .quote p:last-child {
+        font-size: 0.62rem;
+    }
+    
+    /* section aboutcourse */
+    
+    .course_descrip_photo {
+        font-size: 0.75rem;
+        flex-wrap: wrap;
+    }
+    
+    h2 {
+        font-size: 1.62rem;
+    }
+    
+    .photo_lessons_comments {
+        margin-top: 30px;
+        font-size: 0.62rem;
+        margin-bottom: 76px;
+        flex-wrap: wrap;
+    }
+
+    .main_descrip {
+        max-width: 100%;
+    }
+
+    .photo_lessons_comments div:first-child {
+        display: none;
+    }
+    
+    .commentheader {
+        font-size: 0.75rem;
+    }
+    
+    /* section lessonsform */
+    
+    .lessons_form_descrip {
+        margin-top: 17px;
+        margin-bottom: 73px;
+        font-size: 0.62rem;
+        flex-direction: column;
+    }
+    
+    .formheader {
+        font-size: 0.75rem;
+    }
+    
+    .lessons_form_descrip div {
+        max-height: 50px;
+        margin-bottom: 30px;
+    }
+    }
