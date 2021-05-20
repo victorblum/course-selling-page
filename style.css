@@ -145,6 +145,8 @@ h2 {
     font-family: 'Roboto Slab';
     font-size: 3.4rem;
     font-weight: 700;
+    line-height: 101.38%;
+    /* or 56px */
 }
 
 .main_descrip {
@@ -213,14 +215,6 @@ h2 {
 #knowledge, #programcourse h2{
     margin-left: 9.45%;
     max-width: 52.97%;
-}
-
-h2{
-    font-family: Roboto Slab;
-    font-weight: bold;
-    font-size: 3.4rem;
-    line-height: 101.38%;
-    /* or 56px */
 }
 
 #knowledge ul{
@@ -371,14 +365,12 @@ h2 {
     }
 
     #knowledge, #programcourse h2{
-        margin-left: 7.06%;
         width: 38.65%;
     }
 
     #knowledge ul{
         font-size: 0.87rem;
         margin-bottom: 130px;
-        margin-left: 7.06%;
     }
     
     .rects{
@@ -388,7 +380,6 @@ h2 {
 
     .item{
         width: 74.21%;
-        margin-left: 4.9%;
         margin-bottom: 23.75px;
     }
     
@@ -552,7 +543,6 @@ h2 {
   
   #knowledge h2, #programcourse h2{
         font-size: 1.6rem;
-        margin-left: 9.6%;
     }
 
     #knowledge{
@@ -562,6 +552,7 @@ h2 {
 
     #knowledge ul{
         font-size: 0.75rem;
+        margin-bottom: 70px;
     }
 
     .rects{
