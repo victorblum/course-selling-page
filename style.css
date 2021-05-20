@@ -1,7 +1,211 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
 
-#wrapper {
-    max-width: 1400px;
+body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
+}
+
+#wrapper {
+    max-width: 1280px;
+    margin: auto;
+}
+
+#knowledge, #programcourse h2{
+    margin-left: 9.45%;
+    max-width: 52.97%;
+}
+
+h2{
+    font-family: Roboto Slab;
+    font-weight: bold;
+    font-size: 3.4rem;
+    line-height: 101.38%;
+    /* or 56px */
+}
+
+#knowledge ul{
+    font-family: Roboto;
+    font-size: 1.5rem;
+    line-height: 150%;
+    /* or 36px */
+    margin-bottom: 248px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.rects{
+    margin-top: 132px;
+    margin-bottom: 121px;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 41px;
+    width: 99.3%;
+    margin-left: 6.56%;
+}
+
+.item:last-child{
+    width: 65.23%;
+    justify-content: space-between;
+}
+
+.item:last-child .block{
+    width: 47.78%;
+}
+
+.block{
+    background: #FFFFFF;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    width: 31.39%;
+}
+
+.block img{
+    width: 100%;
+    height: auto;
+}
+
+.block h3{
+    margin: 11px 0 32px 20px;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 1.87rem;
+    line-height: 130%;
+    /* identical to box height, or 39px */
+}
+
+.block p{
+    margin: 0 0 23px 19px;
+    font-family: Roboto;
+    font-size: 1.56rem;
+    line-height: 130%;
+    /* or 32px */
+}
+
+.item:last-child .block:last-child h3{
+    margin: 16px 0 8px 20px; /* в макете 1 */
+    line-height: 97%;
+    /* or 29px */
+}
+
+
+@media screen and (max-width: 1279px){
+
+    h2{
+        font-size: 2rem;
+    }
+
+    #knowledge, #programcourse h2{
+        margin-left: 7.06%;
+        width: 38.65%;
+    }
+
+    #knowledge ul{
+        font-size: 0.87rem;
+        margin-bottom: 130px;
+        margin-left: 7.06%;
+    }
+    
+    .rects{
+        margin-top: 76.7px;
+        margin-bottom: 52.6px;
+    } 
+
+    .item{
+        width: 74.21%;
+        margin-left: 4.9%;
+        margin-bottom: 23.75px;
+    }
+    
+    .item:last-child{
+        width: 48.75%;
+    }
+
+    .block{
+        box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+        border-radius: 17.375px;
+        width: 31.39%;
+    }
+
+    .item:last-child .block{
+        width: 47.79%;
+    }
+
+    .block h3{
+        margin: 6.37px 0 18.53px 11.58px;
+        font-size: 1.06rem;
+    }
+        
+    .block p{
+        margin: 0 0 13.32px 11px;
+        font-size: 0.87rem;
+    }
+        
+    .item:last-child .block:last-child h3{
+        margin: 9.27px 0 1px 11.58px; /* в макете 1 */
+        line-height: 97%;
+        /* or 29px */
+    }
+}
+
+@media screen and (max-width: 991px){
+
+    #knowledge h2, #programcourse h2{
+        font-size: 1.6rem;
+        margin-left: 9.6%;
+    }
+
+    #knowledge{
+        margin-left: 9.6%;
+        width: 299px; /* 30.79% вместе с дальнейшим сужением - хрень!*/
+    }
+
+    #knowledge ul{
+        font-size: 0.75rem;
+    }
+
+    .rects{
+        margin-top: 52px;
+        margin-bottom: 47.16x;
+    } 
+
+    .item{
+        width: 185.92px; /*49.58% вместе с дальнейшим сужением - хрень!*/
+        flex-direction: column;
+        margin-left: 25.33%;
+        margin-bottom: 0;
+    }
+
+    .item:last-child{
+        width: 185.92px; /*49.58% вместе с дальнейшим сужением - хрень!*/
+    }
+
+    .block{
+        box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+        border-radius: 13.9792px;
+        width: 100%;
+        margin-bottom: 24.16px;
+    }
+
+    .item:last-child .block{
+        width: 100%;
+    }
+
+    .block h3{
+        margin: 5.13px 0 14.91px 9.32px;
+        font-size: 0.87rem;
+    }
+        
+    .block p{
+        margin: 0 0 8.85px 10.72px;
+        font-size: 0.75rem;
+    }
+        
+    .item:last-child .block:last-child h3{
+        margin: 9.27px 0 1px 11.58px; /* в макете 1 */
+        line-height: 97%;
+        /* or 29px */
+    }
 }
