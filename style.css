@@ -184,3 +184,219 @@ h1 {
     font-size: 25px;
     font-weight: 700;
 }
+
+#recall{
+    width:1280px ;
+    height: 780px;
+    background: #EFEFEF;
+}
+#schedule{
+    width: 1280px;
+    height: 780px;
+    background: #9DC9C8;
+}
+footer{
+    width: 1280px;
+    height: 390px;
+    background: #000000;
+}
+.ad-screen h1{
+    font-family: Roboto Slab;
+font-style: normal;
+font-weight: bold;
+font-size: 3.4em;
+line-height: 101.38%;
+/* or 56px */
+width: 987px;
+height: 93px;
+color: #000000;
+padding-top:  91px;
+padding-left: 122px;
+margin:0em
+} 
+.ad-screen{
+    width: 1280px;
+    height: 780px;
+}
+.ad-screen p{
+    width: 700px;
+    height: 203px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+    color: #000000; 
+    padding-top: 40px;
+    padding-left: 45px
+    
+}
+.info{
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+}
+
+.info{
+    width: 791px ;
+    height: 451px ;
+    background: #FFFFFF;
+    margin-left: 126px;
+    margin-bottom: 111px;
+    border-radius: 20px
+    
+}
+
+.avatar{
+    width: 573px;
+    height: 169px;
+    margin: 0em;
+    padding-bottom: 29px;
+    padding-left: 26px;
+    display: flex;
+}
+
+.name-avtor{
+    width: 353px;
+    height: 59px;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 101.38%;
+    /* or 30px */
+    color: #000000;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.logo-facebook{
+    width: 32px;
+    height: 31px;
+    padding-top: 20px;
+    
+}
+.ad-screen2 h1{  
+    width: 908px;
+    height: 66px;
+    margin: 0em;
+    font-family: Roboto Slab;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 101.38%;
+    /* or 56px */
+    padding-top: 179px;
+    padding-left: 122px;
+    color: #000000;
+  
+}
+.price{
+    width: 170px;
+height: 32px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 101.38%;
+/* or 25px */
+padding-left: 122px;
+padding-top: 54px;
+color: #000000;
+}
+.figure-price{
+    width: 481px;
+    height: 181px;
+    font-size: 80px;
+    line-height: 101.38%;
+    /* or 81px */
+    color: #000000;
+}
+.first-course h2{
+    width: 294px;
+    height: 32px;
+    margin: 0em;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 101.38%;
+    /* or 25px */
+    color: #000000;
+
+}
+.first-course{
+    width: 294px;
+    margin-left: 122px;
+    margin-top: 153px;
+}
+.first-course h3{
+    font-family: Roboto;
+    margin: 0em;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 101.38%;
+    /* or 18px */
+    color: #000000;
+}
+.description{
+    display: flex;
+    width: 658px;
+    height: 102px;
+}
+.course{
+    padding-top: 155px;
+    padding-left: 70px;
+}
+.course h2 {
+    width: 322px;
+    height: 32px;
+    margin: 0em;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 101.38%;
+/* or 25px */
+color: #000000;
+}
+.course h3{
+    width: 294px;
+    height: 70px; 
+    margin: 0em; 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 101.38%;
+    /* or 18px */
+    color: #000000;
+}
+.logo-synchronization  {
+    display: flex;
+    justify-content: space-between;
+    width: 115px;
+    height: 68px;
+    margin: 0em;
+    padding-left: 122px;
+    padding-top: 50px;
+}
+.logo-sinchro{
+    justify-content: flex-end;
+    width: 115px;
+    height: 68px;
+}
+.number-mail h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 101.38%;
+    /* or 25px */
+    color: #FFFFFF;
+    width: 230px;
+    height: 40px;
+}
+.logos{
+    justify-content: flex-end;
+}
