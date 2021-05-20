@@ -10,15 +10,18 @@ body {
     margin: auto;
 }
 
-header {
-    margin: 0;
-    margin-left: 8%;
-    margin-top: 21px;
+header, #howtowatch, #aboutcourse, #lessonsform {
+    margin-left: 9.45%
 }
 
-#howtowatch, #aboutcourse, #lessonsform {
-    margin: 0;
-    margin-left: 8%;
+header {
+    margin-top: 21px;
+    width: 9%;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
 }
 
 /* section howtowatch */
@@ -31,14 +34,10 @@ header {
     list-style-type: none;
     display: flex;
     justify-content: flex-start;
+    align-items: flex-end;
     margin: 0;
     padding: 0;
     margin-top: 96px;
-}
-
-.coursepoints ul li {
-    display: flex;
-    align-items: flex-end;
     font-size: 1.25rem;
 }
 
@@ -47,7 +46,13 @@ header {
 }
 
 .coursepoints ul li:nth-child(odd) {
-    margin-right: 2%;
+    margin-right: 1%;
+    width: 4%;
+}
+
+.coursepoints ul li img {
+    max-width: 100%;
+    height: auto;
 }
 
 .header1_photo {
@@ -58,9 +63,18 @@ header {
 }
 
 .header1_photo div {
-    max-width: 58%;
+    max-width: 59%;
     font-size: 1.25rem;
     font-weight: 400;
+}
+
+.header1_photo div:last-child {
+    width: 28.3%;
+}
+
+.header1_photo div img {
+    max-width: 100%;
+    height: auto;
 }
 
 h1 {
@@ -81,11 +95,11 @@ h1 {
     background-color: #1E4681;
     color: #FFFFFF;
     font-size: 1.5rem;
-    max-width: 39%;
+    max-width: 38%;
     height: 200px;
     border-radius: 5px;
     margin-top: 68px;
-    margin-left: 21%;
+    margin-left: 22.5%;
     margin-bottom: 173px;
 }
 
@@ -94,7 +108,7 @@ h1 {
 }
 
 .quote p:first-child {
-    padding: 5% 5% 2% 5%; 
+    padding: 5% 3% 2% 4%; 
     text-align: left;
 }
 
@@ -103,7 +117,7 @@ h1 {
     font-size: 1.2rem;
     font-weight: 400;
     text-align: right;
-    padding-right: 4%;
+    padding-right: 3%;
 }
 
 /* section aboutcourse */
@@ -116,6 +130,15 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.course_descrip_photo div:last-child {
+    width: 31%;
+}
+
+.course_descrip_photo div img {
+    max-width: 100%;
+    height: auto;
 }
 
 h2 {
@@ -139,12 +162,18 @@ h2 {
     margin-top: 70px;
     font-size: 1.1rem;
     font-weight: 400;
-    max-width: 79%;
+    max-width: 78%;
     margin-bottom: 162px;
 }
 
 .photo_lessons_comments div:first-child {
     margin-right: 13%;
+    width: 23%;
+}
+
+.photo_lessons_comments div img {
+    max-width: 160%;
+    height: auto;
 }
 
 .photo_lessons_comments div {
@@ -167,7 +196,7 @@ h2 {
     margin-bottom: 179px;
     font-size: 1.1rem;
     font-weight: 400;
-    max-width: 81%;
+    max-width: 76%;
 }
 
 .formheader {
@@ -177,7 +206,7 @@ h2 {
 }
 
 .lessons_form_descrip div {
-    max-width: 28%;
+    max-width: 27%;
     max-height: 79px;
 }
 
@@ -197,6 +226,7 @@ h2 {
 
 .header1_photo {
     margin-top: 8px;
+
 }
 
 .header1_photo div {
@@ -213,6 +243,7 @@ h1 {
     border-radius: 2.9px;
     margin-top: 39px;
     margin-bottom: 100px;
+    max-width: 33.5%;
 }
 
 .quote p:last-child {
@@ -262,6 +293,14 @@ h2 {
 
     /* section howtowatch */
     
+    header {
+        min-width: 52px;
+    }
+
+    .coursepoints {
+        min-width: 237px;
+    }
+
     .coursepoints ul {
         margin-top: 47px;
     }
@@ -269,18 +308,31 @@ h2 {
     .coursepoints ul li {
         font-size: 0.62rem;
     }
-    
-    .header1_photo {
-        margin-top: 8px;
-        flex-wrap: wrap;
+
+    .coursepoints ul li:nth-child(odd) {
+        min-width: 10px;
     }
     
+    .coursepoints ul li:nth-child(even) {
+        margin-right: 16px;
+    }
+
+    .header1_photo {
+        margin-top: 8px;
+        flex-direction: column;
+    }
+
     .header1_photo div {
         font-size: 0.62rem;
+        max-width: 100%;
+    }
+
+    .header1_photo div img {
+        min-width: 141px;
     }
     
     h1 {
-        font-size: 2.31rem;
+        font-size: 2.3rem;
     }
     
     .quote {
@@ -290,6 +342,7 @@ h2 {
         margin-top: 39px;
         margin-bottom: 75px;
         margin-left: 0;
+        min-width: 225px;
     }
     
     .quote p:last-child {
@@ -300,7 +353,7 @@ h2 {
     
     .course_descrip_photo {
         font-size: 0.75rem;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
     
     h2 {
@@ -311,11 +364,20 @@ h2 {
         margin-top: 30px;
         font-size: 0.62rem;
         margin-bottom: 76px;
+        max-width: 206px;
         flex-wrap: wrap;
+    }
+
+    .photo_lessons_comments div {
+        max-width: 86px;
     }
 
     .main_descrip {
         max-width: 100%;
+    }
+
+    .course_descrip_photo div img {
+        min-width: 170px;
     }
 
     .photo_lessons_comments div:first-child {
@@ -342,5 +404,6 @@ h2 {
     .lessons_form_descrip div {
         max-height: 50px;
         margin-bottom: 30px;
+        max-width: 180px;
     }
     }
