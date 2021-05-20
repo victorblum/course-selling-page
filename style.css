@@ -327,7 +327,7 @@ h2 {
         max-width: 100%;
     }
 
-    .header1_photo div img {
+    .header1_photo div:last-child {
         min-width: 141px;
     }
     
@@ -376,7 +376,7 @@ h2 {
         max-width: 100%;
     }
 
-    .course_descrip_photo div img {
+    .course_descrip_photo div:last-child {
         min-width: 170px;
     }
 
