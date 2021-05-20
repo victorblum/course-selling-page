@@ -1,13 +1,213 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
 body{
     font-family: 'Roboto', sans-serif;
     margin: 0;
-}
+body {
 
 #wrapper {
     max-width: 1280px;
     margin: auto;
+}
+
+header, #howtowatch, #aboutcourse, #lessonsform {
+    margin-left: 9.45%
+}
+
+header {
+    margin-top: 21px;
+    width: 9%;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* section howtowatch */
+
+.coursepoints {
+    max-width: 47%;
+}
+
+.coursepoints ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+    margin-top: 96px;
+    font-size: 1.25rem;
+}
+
+.coursepoints ul li:nth-child(even) {
+    margin-right: 8%;
+}
+
+.coursepoints ul li:nth-child(odd) {
+    margin-right: 1%;
+    width: 4%;
+}
+
+.coursepoints ul li img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header1_photo {
+    margin-top: 29px;
+    max-width: 84%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header1_photo div {
+    max-width: 59%;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.header1_photo div:last-child {
+    width: 28.3%;
+}
+
+.header1_photo div img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-family: 'Roboto Slab';
+    font-size: 5rem;
+    font-weight: 700;
+    margin: 0;
+    line-height: 100%;
+}
+
+.header1_photo p {
+    max-width: 72%;
+}
+
+.quote {
+    font-family: 'Roboto Slab';
+    font-weight: 400;
+    background-color: #1E4681;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    max-width: 38%;
+    height: 200px;
+    border-radius: 5px;
+    margin-top: 68px;
+    margin-left: 22.5%;
+    margin-bottom: 173px;
+}
+
+.quote p {
+    margin: 0;
+}
+
+.quote p:first-child {
+    padding: 5% 3% 2% 4%; 
+    text-align: left;
+}
+
+.quote p:last-child {
+    font-family: 'Roboto';
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: right;
+    padding-right: 3%;
+}
+
+/* section aboutcourse */
+
+.course_descrip_photo {
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    font-weight: 400;
+    max-width: 93%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course_descrip_photo div:last-child {
+    width: 31%;
+}
+
+.course_descrip_photo div img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-family: 'Roboto Slab';
+    font-size: 3.4rem;
+    font-weight: 700;
+}
+
+.main_descrip {
+    max-width: 55%;
+}
+
+.main_descrip p {
+    margin-top: 0;
+}
+
+.photo_lessons_comments {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    max-width: 78%;
+    margin-bottom: 162px;
+}
+
+.photo_lessons_comments div:first-child {
+    margin-right: 13%;
+    width: 23%;
+}
+
+.photo_lessons_comments div img {
+    max-width: 160%;
+    height: auto;
+}
+
+.photo_lessons_comments div {
+    max-width: 16%;
+}
+
+.commentheader {
+    font-size: 1.55rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+/* section lessonsform */
+
+.lessons_form_descrip {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 89px;
+    margin-bottom: 179px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    max-width: 76%;
+}
+
+.formheader {
+    color: #1E4681;
+    font-size: 1.55rem;
+    font-weight: 700;
+}
+
+.lessons_form_descrip div {
+    max-width: 27%;
+    max-height: 79px;
 }
 
 #knowledge, #programcourse h2{
@@ -90,9 +290,82 @@ h2{
     /* or 29px */
 }
 
+/* @media tablet */
 
-@media screen and (max-width: 1279px){
+@media screen and (min-width: 992px) and (max-width: 1279px) {
 
+/* section howtowatch */
+
+.coursepoints ul {
+    margin-top: 56px;
+}
+
+.coursepoints ul li {
+    font-size: 0.75rem;
+}
+
+.header1_photo {
+    margin-top: 8px;
+
+}
+
+.header1_photo div {
+    font-size: 0.75rem;
+}
+
+h1 {
+    font-size: 2.87rem;
+}
+
+.quote {
+    font-size: 0.87rem;
+    height: 116px;
+    border-radius: 2.9px;
+    margin-top: 39px;
+    margin-bottom: 100px;
+    max-width: 33.5%;
+}
+
+.quote p:last-child {
+    font-size: 0.75rem;
+}
+
+/* section aboutcourse */
+
+.course_descrip_photo {
+    font-size: 0.87rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.photo_lessons_comments {
+    margin-top: 30px;
+    font-size: 0.68rem;
+    margin-bottom: 94px;
+}
+
+.commentheader {
+    font-size: 0.93rem;
+}
+
+/* section lessonsform */
+
+.lessons_form_descrip {
+    margin-top: 51px;
+    margin-bottom: 103px;
+    font-size: 0.68rem;
+}
+
+.formheader {
+    font-size: 0.93rem;
+}
+
+.lessons_form_descrip div {
+    max-height: 45px;
+}
+  
     h2{
         font-size: 2rem;
     }
@@ -150,9 +423,127 @@ h2{
     }
 }
 
-@media screen and (max-width: 991px){
+/* @media mobile */
 
-    #knowledge h2, #programcourse h2{
+@media screen and (max-width: 991px) {
+
+    /* section howtowatch */
+    
+    header {
+        min-width: 52px;
+    }
+
+    .coursepoints {
+        min-width: 237px;
+    }
+
+    .coursepoints ul {
+        margin-top: 47px;
+    }
+    
+    .coursepoints ul li {
+        font-size: 0.62rem;
+    }
+
+    .coursepoints ul li:nth-child(odd) {
+        min-width: 10px;
+    }
+    
+    .coursepoints ul li:nth-child(even) {
+        margin-right: 16px;
+    }
+
+    .header1_photo {
+        margin-top: 8px;
+        flex-direction: column;
+    }
+
+    .header1_photo div {
+        font-size: 0.62rem;
+        max-width: 100%;
+    }
+
+    .header1_photo div:last-child {
+        min-width: 141px;
+    }
+    
+    h1 {
+        font-size: 2.3rem;
+    }
+    
+    .quote {
+        font-size: 0.68rem;
+        height: 93px;
+        border-radius: 2.3px;
+        margin-top: 39px;
+        margin-bottom: 75px;
+        margin-left: 0;
+        min-width: 225px;
+    }
+    
+    .quote p:last-child {
+        font-size: 0.62rem;
+    }
+    
+    /* section aboutcourse */
+    
+    .course_descrip_photo {
+        font-size: 0.75rem;
+        flex-direction: column;
+    }
+    
+    h2 {
+        font-size: 1.62rem;
+    }
+    
+    .photo_lessons_comments {
+        margin-top: 30px;
+        font-size: 0.62rem;
+        margin-bottom: 76px;
+        max-width: 206px;
+        flex-wrap: wrap;
+    }
+
+    .photo_lessons_comments div {
+        max-width: 86px;
+    }
+
+    .main_descrip {
+        max-width: 100%;
+    }
+
+    .course_descrip_photo div:last-child {
+        min-width: 170px;
+    }
+
+    .photo_lessons_comments div:first-child {
+        display: none;
+    }
+    
+    .commentheader {
+        font-size: 0.75rem;
+    }
+    
+    /* section lessonsform */
+    
+    .lessons_form_descrip {
+        margin-top: 17px;
+        margin-bottom: 73px;
+        font-size: 0.62rem;
+        flex-direction: column;
+    }
+    
+    .formheader {
+        font-size: 0.75rem;
+    }
+    
+    .lessons_form_descrip div {
+        max-height: 50px;
+        margin-bottom: 30px;
+        max-width: 180px;
+    }
+  
+  #knowledge h2, #programcourse h2{
         font-size: 1.6rem;
         margin-left: 9.6%;
     }
@@ -208,4 +599,4 @@ h2{
         line-height: 97%;
         /* or 29px */
     }
-}
+    }
