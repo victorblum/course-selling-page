@@ -65,6 +65,7 @@ header img {
 .header1_photo div {
     max-width: 59%;
     font-size: 1.25rem;
+    line-height: 150%;
     font-weight: 400;
 }
 
@@ -110,6 +111,7 @@ h1 {
 .quote p:first-child {
     padding: 5% 3% 2% 4%; 
     text-align: left;
+    line-height: 130%;
 }
 
 .quote p:last-child {
@@ -130,6 +132,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    line-height: 150%;
 }
 
 .course_descrip_photo div:last-child {
@@ -137,7 +140,7 @@ h1 {
 }
 
 .course_descrip_photo div img {
-    max-width: 100%;
+    max-width: 110%;
     height: auto;
 }
 
@@ -146,11 +149,10 @@ h2 {
     font-size: 3.4rem;
     font-weight: 700;
     line-height: 101.38%;
-    /* or 56px */
 }
 
 .main_descrip {
-    max-width: 55%;
+    max-width: 56%;
 }
 
 .main_descrip p {
@@ -166,6 +168,7 @@ h2 {
     font-weight: 400;
     max-width: 78%;
     margin-bottom: 162px;
+    line-height: 130%;
 }
 
 .photo_lessons_comments div:first-child {
@@ -199,6 +202,7 @@ h2 {
     font-size: 1.1rem;
     font-weight: 400;
     max-width: 76%;
+    line-height: 130%;
 }
 
 .formheader {
@@ -212,6 +216,8 @@ h2 {
     max-height: 79px;
 }
 
+/* section knowledge */
+
 #knowledge, #programcourse h2{
     margin-left: 9.45%;
     max-width: 52.97%;
@@ -221,11 +227,12 @@ h2 {
     font-family: Roboto;
     font-size: 1.5rem;
     line-height: 150%;
-    /* or 36px */
     margin-bottom: 248px;
     padding-left: 20px;
     box-sizing: border-box;
 }
+
+/* section programcourse */
 
 .rects{
     margin-top: 132px;
@@ -267,7 +274,6 @@ h2 {
     font-weight: bold;
     font-size: 1.87rem;
     line-height: 130%;
-    /* identical to box height, or 39px */
 }
 
 .block p{
@@ -275,13 +281,202 @@ h2 {
     font-family: Roboto;
     font-size: 1.56rem;
     line-height: 130%;
-    /* or 32px */
 }
 
 .item:last-child .block:last-child h3{
-    margin: 16px 0 8px 20px; /* в макете 1 */
+    margin: 16px 0 8px 20px;
     line-height: 97%;
-    /* or 29px */
+}
+
+/* section recall */
+
+.elements_rec, .elements_sched, .elements_foot {
+    margin-left: 9.45%
+}
+
+#recall {
+    background-color: #EFEFEF;
+    height: 780px;
+}
+
+.elements_rec h2 {
+    margin: 0;
+    padding-top: 91px;
+    padding-bottom: 73px;
+}
+
+.recall_info {
+    max-width: 68%;
+    max-height: 58%;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 0.4%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.recall_info div:first-child {
+    max-width: 88.4%;
+    max-height: 45%;
+    padding: 5% 6% 0 6%;
+    font-size: 1.25rem;
+    line-height: 150%;
+}
+
+.recall_info p {
+    margin: 0;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    font-size: 1.87rem;
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    line-height: 101.38%;
+    max-width: 72.4%;
+}
+
+.avatar div:first-child {
+    width: 33%;
+    margin-bottom: 29px;
+    padding-left: 5%;
+}
+
+.avatar div img {
+    max-width: 100%;
+    height: auto;
+}
+
+.avatar div p {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+.avatar div:last-child img {
+    width: 10%;
+}
+
+/* section schedule */
+
+#schedule {
+    background-color: #9DC9C8;
+    height: 780px;
+}
+
+.elements_sched h2{
+    margin: 0;
+    padding-top: 179px;
+    padding-bottom: 54px;
+}
+
+.name {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+
+.price {
+    font-size: 5rem;
+    margin-top: 0;
+    height: auto;
+}
+
+.shedule_description {
+    display: flex;
+    justify-content: space-between;
+    max-width: 56%;
+}
+
+.shedule_description div {
+    max-width: 45%;
+    height: auto;
+    font-size: 1.1rem;
+    line-height: 101.38%;
+}
+
+/* section footer */
+
+footer {
+    background-color: black;
+    height: 390px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.elements_foot p {
+    color: white;
+    margin-top: 0;
+}
+
+.ad_screen_contacts {
+    display: flex;
+    justify-content: space-between;
+    max-width: 88.5%;
+}
+
+.logo-sinchro {
+    margin-top: 50px;
+    max-width: 11.5%;
+}
+
+.logo-sinchro img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contacts {
+    margin-top: 54px;
+    max-width: 27%;
+}
+
+.number ul {
+    font-size: 1.56rem;
+    line-height: 101.38%;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.number ul li:first-child {
+    margin-right: 7%;
+    max-width: 8.5%;
+}
+
+.mail ul {
+   font-size: 1.56rem;
+   line-height: 101.38%;
+   list-style-type: none;
+   display: flex;
+   margin: 0;
+   padding: 0;
+}
+
+.mail ul li:first-child {
+    margin-right: 7%;
+    max-width: 8.5%;
+}
+
+.messengers {
+    display: flex;
+    justify-content: space-between;
+    max-width: 15.4%;
+    margin-bottom: 140px;
+}
+
+.messengers div {
+    max-width: 17.6%;
+}
+
+.messengers div img {
+    max-width: 100%;
+    height: auto;
+}
+
+.signature {
+    font-size: 1.12rem;
+    line-height: 101.38%;
 }
 
 /* @media tablet */
@@ -408,9 +603,8 @@ h2 {
     }
         
     .item:last-child .block:last-child h3{
-        margin: 9.27px 0 1px 11.58px; /* в макете 1 */
+        margin: 9.27px 0 1px 11.58px;
         line-height: 97%;
-        /* or 29px */
     }
 }
 
@@ -547,7 +741,7 @@ h2 {
 
     #knowledge{
         margin-left: 9.6%;
-        width: 299px; /* 30.79% вместе с дальнейшим сужением - хрень!*/
+        width: 299px;
     }
 
     #knowledge ul{
@@ -561,14 +755,14 @@ h2 {
     } 
 
     .item{
-        width: 185.92px; /*49.58% вместе с дальнейшим сужением - хрень!*/
+        width: 185.92px;
         flex-direction: column;
         margin-left: 25.33%;
         margin-bottom: 0;
     }
 
     .item:last-child{
-        width: 185.92px; /*49.58% вместе с дальнейшим сужением - хрень!*/
+        width: 185.92px;
     }
 
     .block{
@@ -593,227 +787,7 @@ h2 {
     }
         
     .item:last-child .block:last-child h3{
-        margin: 9.27px 0 1px 11.58px; /* в макете 1 */
+        margin: 9.27px 0 1px 11.58px;
         line-height: 97%;
-        /* or 29px */
     }
- 
-/*  TURPAL  */
-
-#recall{
-    width:1280px ;
-    height: 780px;
-    background: #EFEFEF;
 }
-#schedule{
-    width: 1280px;
-    height: 780px;
-    background: #9DC9C8;
-}
-footer{
-    width: 1280px;
-    height: 390px;
-    background: #000000;
-}
-.ad-screen h1{
-    font-family: Roboto Slab;
-font-style: normal;
-font-weight: bold;
-font-size: 3.4em;
-line-height: 101.38%;
-/* or 56px */
-width: 987px;
-height: 93px;
-color: #000000;
-padding-top:  91px;
-padding-left: 122px;
-margin:0em
-} 
-.ad-screen{
-    width: 1280px;
-    height: 780px;
-}
-.ad-screen p{
-    width: 700px;
-    height: 203px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 150%;
-    /* or 30px */
-    color: #000000; 
-    padding-top: 40px;
-    padding-left: 45px
-    
-}
-.info{
-    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
-}
-
-.info{
-    width: 791px ;
-    height: 451px ;
-    background: #FFFFFF;
-    margin-left: 126px;
-    margin-bottom: 111px;
-    border-radius: 20px
-    
-}
-
-.avatar{
-    width: 573px;
-    height: 169px;
-    margin: 0em;
-    padding-bottom: 29px;
-    padding-left: 26px;
-    display: flex;
-}
-
-.name-avtor{
-    width: 353px;
-    height: 59px;
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 101.38%;
-    /* or 30px */
-    color: #000000;
-    padding-top: 50px;
-    padding-left: 30px;
-}
-
-.logo-facebook{
-    width: 32px;
-    height: 31px;
-    padding-top: 20px;
-    
-}
-.ad-screen2 h1{  
-    width: 908px;
-    height: 66px;
-    margin: 0em;
-    font-family: Roboto Slab;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 55px;
-    line-height: 101.38%;
-    /* or 56px */
-    padding-top: 179px;
-    padding-left: 122px;
-    color: #000000;
-  
-}
-.price{
-    width: 170px;
-height: 32px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: 101.38%;
-/* or 25px */
-padding-left: 122px;
-padding-top: 54px;
-color: #000000;
-}
-.figure-price{
-    width: 481px;
-    height: 181px;
-    font-size: 80px;
-    line-height: 101.38%;
-    /* or 81px */
-    color: #000000;
-}
-.first-course h2{
-    width: 294px;
-    height: 32px;
-    margin: 0em;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 101.38%;
-    /* or 25px */
-    color: #000000;
-
-}
-.first-course{
-    width: 294px;
-    margin-left: 122px;
-    margin-top: 153px;
-}
-.first-course h3{
-    font-family: Roboto;
-    margin: 0em;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 101.38%;
-    /* or 18px */
-    color: #000000;
-}
-.description{
-    display: flex;
-    width: 658px;
-    height: 102px;
-}
-.course{
-    padding-top: 155px;
-    padding-left: 70px;
-}
-.course h2 {
-    width: 322px;
-    height: 32px;
-    margin: 0em;
-    font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 25px;
-line-height: 101.38%;
-/* or 25px */
-color: #000000;
-}
-.course h3{
-    width: 294px;
-    height: 70px; 
-    margin: 0em; 
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 101.38%;
-    /* or 18px */
-    color: #000000;
-}
-.logo-synchronization  {
-    display: flex;
-    justify-content: space-between;
-    width: 115px;
-    height: 68px;
-    margin: 0em;
-    padding-left: 122px;
-    padding-top: 50px;
-}
-.logo-sinchro{
-    justify-content: flex-end;
-    width: 115px;
-    height: 68px;
-}
-.number-mail h1{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 25px;
-    line-height: 101.38%;
-    /* or 25px */
-    color: #FFFFFF;
-    width: 230px;
-    height: 40px;
-}
-.logos{
-    justify-content: flex-end;
-  
-}
-    }
