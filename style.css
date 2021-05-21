@@ -243,12 +243,12 @@ h2 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 41px;
-    width: 99.3%;
+    width: 88.26%;
     margin-left: 6.56%;
 }
 
 .item:last-child{
-    width: 65.23%;
+    width: 57.99%;
     justify-content: space-between;
 }
 
@@ -302,7 +302,7 @@ h2 {
 .elements_rec h2 {
     margin: 0;
     padding-top: 91px;
-    padding-bottom: 73px;
+    padding-bottom: 63px;
 }
 
 .recall_info {
@@ -311,7 +311,7 @@ h2 {
     background-color: white;
     border-radius: 30px;
     margin-left: 0.4%;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
 }
 
 .recall_info div:first-child {
@@ -606,6 +606,118 @@ h2 {
         margin: 9.27px 0 1px 11.58px;
         line-height: 97%;
     }
+
+    /* section recall */
+
+    #recall {
+        height: 451.75px;
+    }
+
+    .elements_rec h2 {
+        padding-top: 53px;
+        padding-bottom: 40.26px;
+    }
+
+    .recall_info {
+        max-width: 46.18%;
+        max-height: 57.82%;
+        margin-left: 0.4%;
+        box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+        border-radius: 17.375px;
+    }
+
+    .recall_info div:first-child {
+        padding: 5% 6% 0 6%;
+        font-size: 0.75rem;
+    }
+    
+    .avatar {
+        font-size: 1.06rem;
+        max-width: 72.4%;
+    }
+
+    .avatar div:first-child {
+        width: 24.24%;
+        margin-bottom: 16.8px;
+        padding-left: 5%;
+    }
+
+    .avatar div p {
+        margin-top: 1.91%;
+        margin-bottom: 6.51%;
+    }
+
+    /* section schedule */
+
+    #schedule {
+        background-color: #9DC9C8;
+        height: 451.5px;
+    }
+
+    .elements_sched h2{
+        padding-top: 103.67px;
+        padding-bottom: 31.27px;
+    }
+
+    .name {
+        font-size: 0.87rem;
+    }
+
+    .price {
+        font-size: 2.87rem;
+    }
+
+    .shedule_description {
+        max-width: 45.69%;
+    }
+
+    .shedule_description div {
+        font-size: 0.62rem;
+    }
+
+
+    /* section footer */
+
+    footer {
+        height: 225.88px;
+    }
+
+    .logo-sinchro {
+        margin-top: 28.96px;
+        max-width: 66.6px;
+    }
+
+    .contacts {
+        margin-top: 31.28px;
+        max-width: 27%;
+    }
+
+    .number ul {
+        font-size: 0.87rem;
+    }
+
+    .number ul li:first-child {
+        margin-right: 7%;
+        max-width: 8.5%; /*htibnm!*/
+    }
+
+    .mail ul {
+        font-size: 0.87rem;
+     }
+
+     .mail ul li:first-child {
+        margin-right: 7%;
+        max-width: 8.5%; /*решить!*/
+    }
+
+    .messengers {
+        max-width: 11.56%;
+        margin-bottom: 80px;
+    }
+
+    .signature {
+        font-size: 0.62rem;
+    }    
 }
 
 /* @media mobile */
@@ -790,4 +902,128 @@ h2 {
         margin: 9.27px 0 1px 11.58px;
         line-height: 97%;
     }
+
+    /* section recall */
+
+    #recall {
+        height: 423px;
+    }
+
+    .elements_rec h2 {
+        padding-top: 42px;
+        padding-bottom: 28px;
+    }
+
+    .recall_info {
+        max-width: 82.13%;
+        max-height: 58.63%;
+        box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+        border-radius: 13.9792px;
+    }
+
+    .recall_info div:first-child {
+        padding: 5% 6% 0 6%;
+        font-size: 0.62rem;
+    }
+
+    .avatar {
+        font-size: 0.87rem;
+        max-width: 83.77%;
+    }
+
+    .avatar div:first-child {
+        width: 31.01%;
+        margin-bottom: 13px;
+        padding-left: 5%;
+    }
+
+    .avatar div p {
+        margin-top: 1.91%;
+        margin-bottom: 6.51%;
+    }
+
+    /* section schedule */
+
+    #schedule {
+        height: 363px;
+    }
+
+    .elements_sched h2{
+        padding-top: 62px;
+        padding-bottom: 22.33px;
+    }
+
+    .name {
+        font-size: 0.75rem;
+    }
+
+    .price {
+        font-size: 2.31rem;
+    }
+
+    .shedule_description {
+        max-width: 82.4%;
+    }
+
+    .shedule_description div {
+        font-size: 0.62rem;
+    }
+
+
+    /* section footer */
+
+    footer {
+        height: 251px;
+    }
+
+    .logo-sinchro {
+        margin-top: 23.3px;
+        max-width: 53.59px;
+    }
+
+    .ad_screen_contacts {
+        flex-direction: column;
+        max-width: 39.55%;
+        max-height: 27.74%;
+    } 
+
+    .number ul {
+        font-size: 0.75rem;
+    }
+
+    .number ul li:first-child {
+        margin-right: 7%;
+        max-width: 8.5%; /*htibnm!*/
+    }
+
+    .mail ul {
+        font-size: 0.75rem;
+    }
+
+    .mail ul li:first-child {
+        margin-right: 7%;
+        max-width: 8.5%; /*решить!*/
+    }
+
+     .messengers {
+        max-width: 11.56%;
+        margin-top: -110px;
+        margin-bottom: 35px;
+    }
+
+    .signature {
+        font-size: 0.62rem;
+    } 
+    
+
+    
+
+
+
+
+
+
+
 }
+
+
