@@ -409,15 +409,19 @@ a {
     margin-top: 0;
 }
 
-.ad_screen_contacts {
+.elements_foot {
     display: flex;
     justify-content: space-between;
-    max-width: 88.5%;
+    max-width: 81.4%;
+}
+
+.ad_screen_contacts {
+    padding-top: 50px;
+    width: 16.9%;
 }
 
 .logo-sinchro {
-    margin-top: 50px;
-    max-width: 11.5%;
+    width: 58%;
 }
 
 .logo-sinchro img {
@@ -431,42 +435,57 @@ a {
 }
 
 .number ul {
-    font-size: 1.56rem;
-    line-height: 101.38%;
     list-style-type: none;
     display: flex;
     margin: 0;
     padding: 0;
 }
 
+.number ul li {
+    font-size: 1.56rem;
+    line-height: 101.38%;
+}
+
 .number ul li:first-child {
     margin-right: 7%;
-    max-width: 8.5%;
+    max-width: 10%;
+}
+
+.number ul img {
+    max-width: 100%;
+    height: auto;
 }
 
 .mail ul {
-   font-size: 1.56rem;
-   line-height: 101.38%;
    list-style-type: none;
    display: flex;
    margin: 0;
    padding: 0;
 }
 
+.mail ul li {
+    font-size: 1.56rem;
+    line-height: 101.38%;
+}
+
 .mail ul li:first-child {
     margin-right: 7%;
-    max-width: 8.5%;
+    min-width: 10%;
+}
+
+.mail ul img {
+    max-width: 100%;
+    height: auto;
 }
 
 .messengers {
     display: flex;
     justify-content: space-between;
-    max-width: 15.4%;
-    margin-bottom: 140px;
+    margin-top: 30px;
 }
 
 .messengers div {
-    max-width: 17.6%;
+    width: 17.6%;
 }
 
 .messengers div img {
@@ -475,8 +494,11 @@ a {
 }
 
 .signature {
+    color: white;
+    margin-left: 9.45%;
     font-size: 1.12rem;
     line-height: 101.38%;
+    margin-top: 140px;
 }
 
 /* @media tablet */
@@ -555,475 +577,459 @@ h2 {
     max-height: 45px;
 }
   
-    h2{
-        font-size: 2rem;
-    }
+h2{
+    font-size: 2rem;
+}
 
-    #knowledge, #programcourse h2{
-        width: 38.65%;
-    }
+#knowledge, #programcourse h2{
+    width: 38.65%;
+}
 
-    #knowledge ul{
-        font-size: 0.87rem;
-        margin-bottom: 130px;
-    }
+#knowledge ul{
+    font-size: 0.87rem;
+    margin-bottom: 130px;
+}
+
+.rects{
+    margin-top: 76.7px;
+    margin-bottom: 52.6px;
+} 
+
+.item{
+    width: 74.21%;
+    margin-bottom: 23.75px;
+}
+
+.item:last-child{
+    width: 48.75%;
+}
+
+.block{
+    box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
+    border-radius: 17.375px;
+    width: 31.39%;
+}
+
+.item:last-child .block{
+    width: 47.79%;
+}
+
+.block h3{
+    margin: 6.37px 0 18.53px 11.58px;
+    font-size: 1.06rem;
+}
     
-    .rects{
-        margin-top: 76.7px;
-        margin-bottom: 52.6px;
-    } 
-
-    .item{
-        width: 74.21%;
-        margin-bottom: 23.75px;
-    }
+.block p{
+    margin: 0 0 13.32px 11px;
+    font-size: 0.87rem;
+}
     
-    .item:last-child{
-        width: 48.75%;
-    }
+.item:last-child .block:last-child h3{
+    margin: 9.27px 0 1px 11.58px;
+    line-height: 97%;
+}
 
-    .block{
-        box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
-        border-radius: 17.375px;
-        width: 31.39%;
-    }
+/* section recall */
 
-    .item:last-child .block{
-        width: 47.79%;
-    }
+#recall {
+    height: 451.75px;
+}
 
-    .block h3{
-        margin: 6.37px 0 18.53px 11.58px;
-        font-size: 1.06rem;
-    }
-        
-    .block p{
-        margin: 0 0 13.32px 11px;
-        font-size: 0.87rem;
-    }
-        
-    .item:last-child .block:last-child h3{
-        margin: 9.27px 0 1px 11.58px;
-        line-height: 97%;
-    }
+.elements_rec h2 {
+    padding-top: 53px;
+    padding-bottom: 40.26px;
+}
 
-    /* section recall */
+.recall_info {
+    max-width: 46.18%;
+    max-height: 57.82%;
+    margin-left: 0.4%;
+    box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
+    border-radius: 17.375px;
+}
 
-    #recall {
-        height: 451.75px;
-    }
+.recall_info div:first-child {
+    padding: 5% 6% 0 6%;
+    font-size: 0.75rem;
+}
 
-    .elements_rec h2 {
-        padding-top: 53px;
-        padding-bottom: 40.26px;
-    }
+.avatar {
+    font-size: 1.06rem;
+    max-width: 72.4%;
+}
 
-    .recall_info {
-        max-width: 46.18%;
-        max-height: 57.82%;
-        margin-left: 0.4%;
-        box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
-        border-radius: 17.375px;
-    }
+.avatar div:first-child {
+    width: 24.24%;
+    margin-bottom: 16.8px;
+    padding-left: 5%;
+}
 
-    .recall_info div:first-child {
-        padding: 5% 6% 0 6%;
-        font-size: 0.75rem;
-    }
-    
-    .avatar {
-        font-size: 1.06rem;
-        max-width: 72.4%;
-    }
+.avatar div p {
+    margin-top: 1.91%;
+    margin-bottom: 6.51%;
+}
 
-    .avatar div:first-child {
-        width: 24.24%;
-        margin-bottom: 16.8px;
-        padding-left: 5%;
-    }
+/* section schedule */
 
-    .avatar div p {
-        margin-top: 1.91%;
-        margin-bottom: 6.51%;
-    }
+#schedule {
+    background-color: #9DC9C8;
+    height: 451.5px;
+}
 
-    /* section schedule */
+.elements_sched h2{
+    padding-top: 103.67px;
+    padding-bottom: 31.27px;
+}
 
-    #schedule {
-        background-color: #9DC9C8;
-        height: 451.5px;
-    }
+.name {
+    font-size: 0.87rem;
+}
 
-    .elements_sched h2{
-        padding-top: 103.67px;
-        padding-bottom: 31.27px;
-    }
+.price {
+    font-size: 2.87rem;
+}
 
-    .name {
-        font-size: 0.87rem;
-    }
+.shedule_description {
+    max-width: 45.69%;
+}
 
-    .price {
-        font-size: 2.87rem;
-    }
+.shedule_description div {
+    font-size: 0.62rem;
+}
 
-    .shedule_description {
-        max-width: 45.69%;
-    }
+/* section footer */
 
-    .shedule_description div {
-        font-size: 0.62rem;
-    }
+footer {
+    background-color: black;
+    height: 225.88px;
+}
 
+.ad_screen_contacts {
+    padding-top: 29px;
+}
 
-    /* section footer */
+.contacts {
+    margin-top: 31px;
+}
 
-    footer {
-        height: 225.88px;
-    }
+.number ul li {
+    font-size: 0.87rem;
+}
 
-    .logo-sinchro {
-        margin-top: 28.96px;
-        max-width: 66.6px;
-    }
+.mail ul li {
+    font-size: 0.87rem;
+}
 
-    .contacts {
-        margin-top: 31.28px;
-        max-width: 27%;
-    }
+.mail ul li:first-child {
+    min-width: 10%;
+}
 
-    .number ul {
-        font-size: 0.87rem;
-    }
+.messengers {
+    margin-top: 17px;
+}
 
-    .number ul li:first-child {
-        margin-right: 7%;
-        max-width: 8.5%; /*htibnm!*/
-    }
-
-    .mail ul {
-        font-size: 0.87rem;
-     }
-
-     .mail ul li:first-child {
-        margin-right: 7%;
-        max-width: 8.5%; /*решить!*/
-    }
-
-    .messengers {
-        max-width: 11.56%;
-        margin-bottom: 80px;
-    }
-
-    .signature {
-        font-size: 0.62rem;
-    }    
+.signature {
+    font-size: 0.62rem;
+    margin-top: 64px;
+}
 }
 
 /* @media mobile */
 
 @media screen and (max-width: 991px) {
 
-    /* section howtowatch */
+/* section howtowatch */
     
-    header {
-        min-width: 52px;
-    }
+header {
+    min-width: 52px;
+}
 
-    .coursepoints {
-        min-width: 237px;
-    }
+.coursepoints {
+    min-width: 237px;
+}
 
-    .coursepoints ul {
-        margin-top: 47px;
-    }
+.coursepoints ul {
+    margin-top: 47px;
+}
+
+.coursepoints ul li {
+    font-size: 0.62rem;
+}
+
+.coursepoints ul li:nth-child(odd) {
+    min-width: 10px;
+}
+
+.coursepoints ul li:nth-child(even) {
+    margin-right: 16px;
+}
+
+.header1_photo {
+    margin-top: 8px;
+    flex-direction: column;
+}
+
+.header1_photo div {
+    font-size: 0.62rem;
+    max-width: 100%;
+}
+
+.header1_photo div:last-child {
+    min-width: 141px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2.3rem;
+}
+
+.quote {
+    font-size: 0.68rem;
+    height: 93px;
+    border-radius: 2.3px;
+    margin-top: 39px;
+    margin-bottom: 75px;
+    margin-left: 0;
+    min-width: 225px;
+}
+
+.quote p:last-child {
+    font-size: 0.62rem;
+}
+
+/* section aboutcourse */
+
+.course_descrip_photo {
+    font-size: 0.75rem;
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-size: 1.62rem;
+}
+
+.photo_lessons_comments {
+    margin-top: 30px;
+    font-size: 0.62rem;
+    margin-bottom: 76px;
+    max-width: 206px;
+    flex-wrap: wrap;
+}
+
+.photo_lessons_comments div {
+    max-width: 86px;
+}
+
+.course_descrip_photo {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.main_descrip {
+    min-width: 308px;
+}
+
+.course_descrip_photo div:last-child {
+    min-width: 170px;
+    margin: auto;
+}
+
+.photo_lessons_comments div:first-child {
+    display: none;
+}
+
+.commentheader {
+    font-size: 0.75rem;
+}
+
+/* section lessonsform */
+
+.lessons_form_descrip {
+    margin-top: 17px;
+    margin-bottom: 73px;
+    font-size: 0.62rem;
+    flex-direction: column;
+}
+
+.formheader {
+    font-size: 0.75rem;
+}
+
+.lessons_form_descrip div {
+    max-height: 50px;
+    margin-bottom: 30px;
+    max-width: 180px;
+}
+
+#knowledge h2, #programcourse h2{
+    font-size: 1.6rem;
+}
+
+#knowledge{
+    margin-left: 9.6%;
+    width: 299px;
+}
+
+#knowledge ul{
+    font-size: 0.75rem;
+    margin-bottom: 70px;
+}
+
+.rects{
+    margin-top: 52px;
+    margin-bottom: 47.16x;
+} 
+
+.item{
+    width: 185.92px;
+    flex-direction: column;
+    margin-left: 25.33%;
+    margin-bottom: 0;
+}
+
+.item:last-child{
+    width: 185.92px;
+}
+
+.block{
+    box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
+    border-radius: 13.9792px;
+    width: 100%;
+    margin-bottom: 24.16px;
+}
+
+.item:last-child .block{
+    width: 100%;
+}
+
+.block h3{
+    margin: 5.13px 0 14.91px 9.32px;
+    font-size: 0.87rem;
+}
     
-    .coursepoints ul li {
-        font-size: 0.62rem;
-    }
-
-    .coursepoints ul li:nth-child(odd) {
-        min-width: 10px;
-    }
+.block p{
+    margin: 0 0 8.85px 10.72px;
+    font-size: 0.75rem;
+}
     
-    .coursepoints ul li:nth-child(even) {
-        margin-right: 16px;
-    }
+.item:last-child .block:last-child h3{
+    margin: 9.27px 0 1px 11.58px;
+    line-height: 97%;
+}
 
-    .header1_photo {
-        margin-top: 8px;
-        flex-direction: column;
-    }
+/* section recall */
 
-    .header1_photo div {
-        font-size: 0.62rem;
-        max-width: 100%;
-    }
+#recall {
+    height: 423px;
+}
 
-    .header1_photo div:last-child {
-        min-width: 141px;
-        margin: auto;
-    }
+.elements_rec h2 {
+    padding-top: 42px;
+    padding-bottom: 28px;
+}
+
+.recall_info {
+    max-width: 82.13%;
+    max-height: 58.63%;
+    box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
+    border-radius: 13.9792px;
+}
+
+.recall_info div:first-child {
+    padding: 5% 6% 0 6%;
+    font-size: 0.62rem;
+}
+
+.avatar {
+    font-size: 0.87rem;
+    max-width: 83.77%;
+}
+
+.avatar div:first-child {
+    width: 31.01%;
+    margin-bottom: 13px;
+    padding-left: 5%;
+}
+
+.avatar div p {
+    margin-top: 1.91%;
+    margin-bottom: 6.51%;
+}
+
+/* section schedule */
+
+#schedule {
+    height: 363px;
+}
+
+.elements_sched h2{
+    padding-top: 62px;
+    padding-bottom: 22.33px;
+}
+
+.name {
+    font-size: 0.75rem;
+}
+
+.price {
+    font-size: 2.31rem;
+}
+
+.shedule_description {
+    max-width: 82.4%;
+}
+
+.shedule_description div {
+    font-size: 0.62rem;
+}
+
+/* section footer */
+
+footer {
+    background-color: black;
+    height: 251px;
+}
+
+.ad_screen_contacts {
+    padding-top: 23px;
+    min-width: 24.5%;
+}
+
+.elements_foot {
+    flex-direction: column;
+}
+
+.contacts {
+    margin-top: 47px;
+    min-width: 41%;
+}
+
+.number ul li {
+    font-size: 0.75rem;
+}
+
+.mail ul li {
+    font-size: 0.75rem;
+}
+
+.mail ul li:first-child {
+    min-width: 10%;
+}
+
+.messengers {
+    margin-top: 14px;
+    min-width: 24.5%;
+}
+
+.messengers div {
+    min-width: 17%;
+}
+
+.signature {
+    font-size: 0.62rem;
+    margin-top: 40px;
     
-    h1 {
-        font-size: 2.3rem;
-    }
-    
-    .quote {
-        font-size: 0.68rem;
-        height: 93px;
-        border-radius: 2.3px;
-        margin-top: 39px;
-        margin-bottom: 75px;
-        margin-left: 0;
-        min-width: 225px;
-    }
-    
-    .quote p:last-child {
-        font-size: 0.62rem;
-    }
-    
-    /* section aboutcourse */
-    
-    .course_descrip_photo {
-        font-size: 0.75rem;
-        flex-wrap: wrap;
-    }
-    
-    h2 {
-        font-size: 1.62rem;
-    }
-    
-    .photo_lessons_comments {
-        margin-top: 30px;
-        font-size: 0.62rem;
-        margin-bottom: 76px;
-        max-width: 206px;
-        flex-wrap: wrap;
-    }
-
-    .photo_lessons_comments div {
-        max-width: 86px;
-    }
-
-    .course_descrip_photo {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .main_descrip {
-        min-width: 308px;
-    }
-
-    .course_descrip_photo div:last-child {
-        min-width: 170px;
-        margin: auto;
-    }
-
-    .photo_lessons_comments div:first-child {
-        display: none;
-    }
-    
-    .commentheader {
-        font-size: 0.75rem;
-    }
-    
-    /* section lessonsform */
-    
-    .lessons_form_descrip {
-        margin-top: 17px;
-        margin-bottom: 73px;
-        font-size: 0.62rem;
-        flex-direction: column;
-    }
-    
-    .formheader {
-        font-size: 0.75rem;
-    }
-    
-    .lessons_form_descrip div {
-        max-height: 50px;
-        margin-bottom: 30px;
-        max-width: 180px;
-    }
-  
-  #knowledge h2, #programcourse h2{
-        font-size: 1.6rem;
-    }
-
-    #knowledge{
-        margin-left: 9.6%;
-        width: 299px;
-    }
-
-    #knowledge ul{
-        font-size: 0.75rem;
-        margin-bottom: 70px;
-    }
-
-    .rects{
-        margin-top: 52px;
-        margin-bottom: 47.16x;
-    } 
-
-    .item{
-        width: 185.92px;
-        flex-direction: column;
-        margin-left: 25.33%;
-        margin-bottom: 0;
-    }
-
-    .item:last-child{
-        width: 185.92px;
-    }
-
-    .block{
-        box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
-        border-radius: 13.9792px;
-        width: 100%;
-        margin-bottom: 24.16px;
-    }
-
-    .item:last-child .block{
-        width: 100%;
-    }
-
-    .block h3{
-        margin: 5.13px 0 14.91px 9.32px;
-        font-size: 0.87rem;
-    }
-        
-    .block p{
-        margin: 0 0 8.85px 10.72px;
-        font-size: 0.75rem;
-    }
-        
-    .item:last-child .block:last-child h3{
-        margin: 9.27px 0 1px 11.58px;
-        line-height: 97%;
-    }
-
-    /* section recall */
-
-    #recall {
-        height: 423px;
-    }
-
-    .elements_rec h2 {
-        padding-top: 42px;
-        padding-bottom: 28px;
-    }
-
-    .recall_info {
-        max-width: 82.13%;
-        max-height: 58.63%;
-        box-shadow: 0.465972px 0.465972px 9.31944px rgba(0, 0, 0, 0.25);
-        border-radius: 13.9792px;
-    }
-
-    .recall_info div:first-child {
-        padding: 5% 6% 0 6%;
-        font-size: 0.62rem;
-    }
-
-    .avatar {
-        font-size: 0.87rem;
-        max-width: 83.77%;
-    }
-
-    .avatar div:first-child {
-        width: 31.01%;
-        margin-bottom: 13px;
-        padding-left: 5%;
-    }
-
-    .avatar div p {
-        margin-top: 1.91%;
-        margin-bottom: 6.51%;
-    }
-
-    /* section schedule */
-
-    #schedule {
-        height: 363px;
-    }
-
-    .elements_sched h2{
-        padding-top: 62px;
-        padding-bottom: 22.33px;
-    }
-
-    .name {
-        font-size: 0.75rem;
-    }
-
-    .price {
-        font-size: 2.31rem;
-    }
-
-    .shedule_description {
-        max-width: 82.4%;
-    }
-
-    .shedule_description div {
-        font-size: 0.62rem;
-    }
-
-
-    /* section footer */
-
-    footer {
-        height: 251px;
-    }
-
-    .logo-sinchro {
-        margin-top: 23.3px;
-        max-width: 53.59px;
-    }
-
-    .ad_screen_contacts {
-        flex-direction: column;
-        max-width: 39.55%;
-        max-height: 27.74%;
-    } 
-
-    .number ul {
-        font-size: 0.75rem;
-    }
-
-    .number ul li:first-child {
-        margin-right: 7%;
-        max-width: 8.5%; /*htibnm!*/
-    }
-
-    .mail ul {
-        font-size: 0.75rem;
-    }
-
-    .mail ul li:first-child {
-        margin-right: 7%;
-        max-width: 8.5%; /*решить!*/
-    }
-
-     .messengers {
-        max-width: 11.56%;
-        margin-top: -110px;
-        margin-bottom: 35px;
-    }
-
-    .signature {
-        font-size: 0.62rem;
-    } 
-    
-
-    
-
-
-
-
-
-
-
+}
 }
 
 
