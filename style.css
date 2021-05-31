@@ -172,17 +172,13 @@ h2 {
 }
 
 .photo_lessons_comments div:first-child {
-    margin-right: 13%;
+    margin-right: 15%;
     width: 23%;
 }
 
-.photo_lessons_comments div img {
-    max-width: 160%;
-    height: auto;
-}
-
 .photo_lessons_comments div {
-    max-width: 16%;
+    max-width: 18%;
+    height: auto;
 }
 
 .commentheader {
@@ -557,6 +553,10 @@ h2 {
     margin-bottom: 94px;
 }
 
+.photo_lessons_comments div {
+    max-width: 13%;
+}
+
 .commentheader {
     font-size: 0.93rem;
 }
@@ -817,7 +817,7 @@ h2 {
 }
 
 .photo_lessons_comments div {
-    max-width: 86px;
+    max-width: 40%;
 }
 
 .course_descrip_photo {
