@@ -5,22 +5,18 @@ body{
     margin: 0;
 }
 
-#wrapper {
+#wrapper_top{
     max-width: 1280px;
     margin: auto;
-}
-
-header, #howtowatch, #aboutcourse, #lessonsform {
     margin-left: 9.45%
 }
 
 header {
     margin-top: 21px;
-    width: 9%;
 }
 
 header img {
-    max-width: 100%;
+    max-width: 9%;
     height: auto;
 }
 
@@ -171,6 +167,10 @@ h2 {
     line-height: 130%;
 }
 
+/* .photo_lessons_comments div img {
+    max-width: 100%;
+} */
+
 .photo_lessons_comments div:first-child {
     margin-right: 15%;
     width: 23%;
@@ -214,11 +214,6 @@ h2 {
 
 /* section knowledge */
 
-#knowledge, #programcourse h2{
-    margin-left: 9.45%;
-    max-width: 52.97%;
-}
-
 #knowledge ul{
     font-family: Roboto;
     font-size: 1.5rem;
@@ -226,6 +221,7 @@ h2 {
     margin-bottom: 248px;
     padding-left: 20px;
     box-sizing: border-box;
+    max-width: 52.97%;
 }
 
 /* section programcourse */
@@ -240,7 +236,6 @@ h2 {
     justify-content: space-between;
     margin-bottom: 41px;
     width: 88.26%;
-    margin-left: 6.56%;
 }
 
 .item:last-child{
@@ -248,23 +243,23 @@ h2 {
     justify-content: space-between;
 }
 
-.item:last-child .block{
+.item:last-child .square{
     width: 47.78%;
 }
 
-.block{
+.square{
     background: #FFFFFF;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
     border-radius: 30px;
     width: 31.39%;
 }
 
-.block img{
+.square img{
     width: 100%;
     height: auto;
 }
 
-.block h3{
+.square h3{
     margin: 11px 0 32px 20px;
     font-family: Roboto;
     font-weight: bold;
@@ -272,27 +267,27 @@ h2 {
     line-height: 130%;
 }
 
-.block p{
+.square p{
     margin: 0 0 23px 19px;
     font-family: Roboto;
     font-size: 1.56rem;
     line-height: 130%;
 }
 
-.item:last-child .block:last-child h3{
+.item:last-child .square:last-child h3{
     margin: 16px 0 8px 20px;
     line-height: 97%;
 }
 
 /* section recall */
-
-.elements_rec, .elements_sched, .elements_foot {
-    margin-left: 9.45%
+#wrapper_recall {
+    background-color: #EFEFEF;
 }
 
 #recall {
-    background-color: #EFEFEF;
     height: 780px;
+    padding-left: 9.45%;
+    max-width: 1280px;
 }
 
 .elements_rec h2 {
@@ -354,8 +349,13 @@ h2 {
 
 /* section schedule */
 
-#schedule {
+#wrapper_shedule {
     background-color: #9DC9C8;
+}
+
+#schedule {
+    padding-left: 9.45%;
+    max-width: 1280px;
     height: 780px;
 }
 
@@ -391,8 +391,13 @@ h2 {
 
 /* section footer */
 
-footer {
+#wrapper_footer {
     background-color: black;
+}
+
+footer {
+    padding-left: 9.45%;
+    max-width: 1280px;
     height: 390px;
 }
 
@@ -491,7 +496,6 @@ a {
 
 .signature {
     color: white;
-    margin-left: 9.45%;
     font-size: 1.12rem;
     line-height: 101.38%;
     margin-top: 140px;
@@ -581,13 +585,10 @@ h2{
     font-size: 2rem;
 }
 
-#knowledge, #programcourse h2{
-    width: 38.65%;
-}
-
 #knowledge ul{
     font-size: 0.87rem;
     margin-bottom: 130px;
+    width: 38.65%;
 }
 
 .rects{
@@ -604,27 +605,27 @@ h2{
     width: 48.75%;
 }
 
-.block{
+.square{
     box-shadow: 0.579167px 0.579167px 8.6875px rgba(0, 0, 0, 0.25);
     border-radius: 17.375px;
     width: 31.39%;
 }
 
-.item:last-child .block{
+.item:last-child .square{
     width: 47.79%;
 }
 
-.block h3{
+.square h3{
     margin: 6.37px 0 18.53px 11.58px;
     font-size: 1.06rem;
 }
     
-.block p{
+.square p{
     margin: 0 0 13.32px 11px;
     font-size: 0.87rem;
 }
     
-.item:last-child .block:last-child h3{
+.item:last-child .square:last-child h3{
     margin: 9.27px 0 1px 11.58px;
     line-height: 97%;
 }
@@ -643,7 +644,6 @@ h2{
 .recall_info {
     max-width: 46.18%;
     max-height: 57.82%;
-    margin-left: 0.4%;
     box-shadow: 0.579167px 0.579167px 11.5833px rgba(0, 0, 0, 0.25);
     border-radius: 17.375px;
 }
@@ -672,7 +672,6 @@ h2{
 /* section schedule */
 
 #schedule {
-    background-color: #9DC9C8;
     height: 451.5px;
 }
 
@@ -700,7 +699,6 @@ h2{
 /* section footer */
 
 footer {
-    background-color: black;
     height: 225.88px;
 }
 
@@ -865,14 +863,10 @@ h2 {
     font-size: 1.6rem;
 }
 
-#knowledge{
-    margin-left: 9.6%;
-    width: 299px;
-}
-
 #knowledge ul{
     font-size: 0.75rem;
     margin-bottom: 70px;
+    min-width: 299px;
 }
 
 .rects{
@@ -883,7 +877,7 @@ h2 {
 .item{
     width: 185.92px;
     flex-direction: column;
-    margin-left: 25.33%;
+    margin: auto;
     margin-bottom: 0;
 }
 
@@ -891,28 +885,28 @@ h2 {
     width: 185.92px;
 }
 
-.block{
+.square{
     box-shadow: 0.465972px 0.465972px 6.98958px rgba(0, 0, 0, 0.25);
     border-radius: 13.9792px;
     width: 100%;
     margin-bottom: 24.16px;
 }
 
-.item:last-child .block{
+.item:last-child .square{
     width: 100%;
 }
 
-.block h3{
+.square h3{
     margin: 5.13px 0 14.91px 9.32px;
     font-size: 0.87rem;
 }
     
-.block p{
+.square p{
     margin: 0 0 8.85px 10.72px;
     font-size: 0.75rem;
 }
     
-.item:last-child .block:last-child h3{
+.item:last-child .square:last-child h3{
     margin: 9.27px 0 1px 11.58px;
     line-height: 97%;
 }
@@ -986,7 +980,6 @@ h2 {
 /* section footer */
 
 footer {
-    background-color: black;
     height: 251px;
 }
 
@@ -1001,7 +994,7 @@ footer {
 
 .contacts {
     margin-top: 47px;
-    min-width: 41%;
+    min-width: 55%;
 }
 
 .number ul li {
@@ -1028,7 +1021,6 @@ footer {
 .signature {
     font-size: 0.62rem;
     margin-top: 40px;
-    
 }
 }
 
