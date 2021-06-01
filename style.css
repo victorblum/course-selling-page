@@ -23,32 +23,28 @@ header img {
 /* section howtowatch */
 
 .coursepoints {
-    max-width: 47%;
-}
-
-.coursepoints ul {
-    list-style-type: none;
+    max-width: 43%;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
-    margin: 0;
-    padding: 0;
+    justify-content: space-between;
     margin-top: 96px;
     font-size: 1.25rem;
 }
 
-.coursepoints ul li:nth-child(even) {
-    margin-right: 8%;
+.coursepoints div img {
+    max-height: 30%;
+    width: auto;
+    margin-right: 4%;
+} 
+
+.coursepoints div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 29%;
 }
 
-.coursepoints ul li:nth-child(odd) {
-    margin-right: 1%;
-    width: 4%;
-}
-
-.coursepoints ul li img {
-    max-width: 100%;
-    height: auto;
+.coursepoints div:nth-child(2) {
+    width: 22%;
 }
 
 .header1_photo {
@@ -158,26 +154,33 @@ h2 {
 .photo_lessons_comments {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
+    max-width: 78%;
     margin-top: 70px;
+    margin-bottom: 162px;
+}
+
+.comments_list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
     font-size: 1.1rem;
     font-weight: 400;
-    max-width: 78%;
-    margin-bottom: 162px;
     line-height: 130%;
+    margin-left: 15%;
 }
 
-/* .photo_lessons_comments div img {
+.comments_list div {
+    max-width: 25%;
+    height: auto;
+}
+
+.photo_comments {
+    width: 24%;
+}
+
+.photo_lessons_comments img {
     max-width: 100%;
-} */
-
-.photo_lessons_comments div:first-child {
-    margin-right: 15%;
-    width: 23%;
-}
-
-.photo_lessons_comments div {
-    max-width: 18%;
     height: auto;
 }
 
@@ -507,17 +510,14 @@ a {
 
 /* section howtowatch */
 
-.coursepoints ul {
+.coursepoints {
+    max-width: 35%;
     margin-top: 56px;
-}
-
-.coursepoints ul li {
     font-size: 0.75rem;
 }
 
 .header1_photo {
     margin-top: 8px;
-
 }
 
 .header1_photo div {
@@ -553,12 +553,19 @@ h2 {
 
 .photo_lessons_comments {
     margin-top: 30px;
-    font-size: 0.68rem;
     margin-bottom: 94px;
 }
 
-.photo_lessons_comments div {
-    max-width: 13%;
+.comments_list {
+    font-size: 0.68rem;
+}
+
+.comments_list div {
+    max-width: 23%;
+}
+
+.photo_comments {
+    width: 20%;
 }
 
 .commentheader {
@@ -738,28 +745,23 @@ footer {
 
 /* section howtowatch */
     
-header {
+header img {
     min-width: 52px;
 }
 
 .coursepoints {
+    max-width: 35%;
     min-width: 237px;
-}
-
-.coursepoints ul {
     margin-top: 47px;
-}
-
-.coursepoints ul li {
     font-size: 0.62rem;
 }
 
-.coursepoints ul li:nth-child(odd) {
-    min-width: 10px;
+.coursepoints div {
+    min-width: 74px;
 }
 
-.coursepoints ul li:nth-child(even) {
-    margin-right: 16px;
+.coursepoints div:nth-child(2) {
+    min-width: 59px;
 }
 
 .header1_photo {
@@ -808,14 +810,22 @@ h2 {
 
 .photo_lessons_comments {
     margin-top: 30px;
-    font-size: 0.62rem;
     margin-bottom: 76px;
+}
+
+.comments_list {
+    font-size: 0.62rem;
+    margin-left: 0;
     max-width: 206px;
     flex-wrap: wrap;
 }
 
-.photo_lessons_comments div {
+.comments_list div {
     max-width: 40%;
+}
+
+.photo_comments {
+    display: none;
 }
 
 .course_descrip_photo {
@@ -830,10 +840,6 @@ h2 {
 .course_descrip_photo div:last-child {
     min-width: 170px;
     margin: auto;
-}
-
-.photo_lessons_comments div:first-child {
-    display: none;
 }
 
 .commentheader {
