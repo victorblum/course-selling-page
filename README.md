@@ -1,1 +1,1 @@
-<img src="https://github.com/victorblum/Tip-calculator/blob/main/photo/Preview.gif" width="300" height="500" />
+<img src="https://github.com/victorblum/course-selling-page/blob/main/photo/Preview_laptop.gif" />
