@@ -757,7 +757,7 @@ header img {
 }
 
 .coursepoints div {
-    min-width: 74px;
+    min-width: 75px;
 }
 
 .coursepoints div:nth-child(2) {
@@ -834,7 +834,7 @@ h2 {
 }
 
 .main_descrip {
-    min-width: 308px;
+    min-width: 280px;
 }
 
 .course_descrip_photo div:last-child {
@@ -872,7 +872,7 @@ h2 {
 #knowledge ul{
     font-size: 0.75rem;
     margin-bottom: 70px;
-    min-width: 299px;
+    min-width: 280px;
 }
 
 .rects{
