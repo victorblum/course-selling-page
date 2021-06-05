@@ -5,14 +5,21 @@ body{
     margin: 0;
 }
 
-#wrapper_top{
+main {
     max-width: 1280px;
+    width: 89%;
     margin: auto;
-    margin-left: 9.45%
 }
 
 header {
-    margin-top: 21px;
+    margin: auto;
+    max-width: 1280px;
+    width: 89%;
+    margin-top: 21px;   
+}
+
+.logotype {
+    padding-left: 37px;
 }
 
 header img {
@@ -22,8 +29,12 @@ header img {
 
 /* section howtowatch */
 
+.howtowatch_content {
+    margin-left: 37px;
+}
+
 .coursepoints {
-    max-width: 43%;
+    max-width: 45%;
     display: flex;
     justify-content: space-between;
     margin-top: 96px;
@@ -49,7 +60,7 @@ header img {
 
 .header1_photo {
     margin-top: 29px;
-    max-width: 84%;
+    max-width: 88%;
     display: flex;
     justify-content: space-between;
 }
@@ -88,8 +99,8 @@ h1 {
     background-color: #1E4681;
     color: #FFFFFF;
     font-size: 1.5rem;
-    max-width: 38%;
-    height: 200px;
+    max-width: 41%;
+    height: auto;
     border-radius: 5px;
     margin-top: 68px;
     margin-left: 22.5%;
@@ -101,7 +112,7 @@ h1 {
 }
 
 .quote p:first-child {
-    padding: 5% 3% 2% 4%; 
+    padding: 5% 3% 2% 5%; 
     text-align: left;
     line-height: 130%;
 }
@@ -111,16 +122,21 @@ h1 {
     font-size: 1.2rem;
     font-weight: 400;
     text-align: right;
-    padding-right: 3%;
+    padding-right: 4%;
+    padding-bottom: 4%;
 }
 
 /* section aboutcourse */
+
+.aboutcourse_content {
+    margin-left: 37px;
+}
 
 .course_descrip_photo {
     font-family: 'Roboto';
     font-size: 1.5rem;
     font-weight: 400;
-    max-width: 93%;
+    max-width: 95%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -144,7 +160,7 @@ h2 {
 }
 
 .main_descrip {
-    max-width: 56%;
+    max-width: 58%;
 }
 
 .main_descrip p {
@@ -155,7 +171,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    max-width: 78%;
+    max-width: 81%;
     margin-top: 70px;
     margin-bottom: 162px;
 }
@@ -171,12 +187,12 @@ h2 {
 }
 
 .comments_list div {
-    max-width: 25%;
+    max-width: 26%;
     height: auto;
 }
 
 .photo_comments {
-    width: 24%;
+    width: 30%;
 }
 
 .photo_lessons_comments img {
@@ -191,6 +207,10 @@ h2 {
 }
 
 /* section lessonsform */
+
+.lessonsform_content {
+    margin-left: 37px;
+}
 
 .lessons_form_descrip {
     display: flex;
@@ -212,10 +232,14 @@ h2 {
 
 .lessons_form_descrip div {
     max-width: 27%;
-    max-height: 79px;
+    height: auto;
 }
 
 /* section knowledge */
+
+.knowledge_content {
+    margin-left: 37px;
+}
 
 #knowledge ul{
     font-family: Roboto;
@@ -229,6 +253,10 @@ h2 {
 
 /* section programcourse */
 
+.programcourse_content h2 {
+    margin-left: 37px;
+}
+
 .rects{
     margin-top: 132px;
     margin-bottom: 121px;
@@ -238,11 +266,11 @@ h2 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 41px;
-    width: 88.26%;
+    width: 100%;
 }
 
 .item:last-child{
-    width: 57.99%;
+    width: 66%;
     justify-content: space-between;
 }
 
@@ -283,14 +311,17 @@ h2 {
 }
 
 /* section recall */
-#wrapper_recall {
+
+#recall {
     background-color: #EFEFEF;
 }
 
-#recall {
+.recall_content {
     height: 780px;
-    padding-left: 9.45%;
     max-width: 1280px;
+    margin: auto; 
+    width: 89%;
+    padding-left: 37px;
 }
 
 .elements_rec h2 {
@@ -350,16 +381,18 @@ h2 {
     width: 10%;
 }
 
-/* section schedule */
+/* section shedule */
 
-#wrapper_shedule {
+#shedule {
     background-color: #9DC9C8;
 }
 
-#schedule {
-    padding-left: 9.45%;
+.shedule_content {
     max-width: 1280px;
     height: 780px;
+    margin: auto; 
+    width: 89%;
+    padding-left: 37px;
 }
 
 .elements_sched h2{
@@ -394,14 +427,16 @@ h2 {
 
 /* section footer */
 
-#wrapper_footer {
+footer {
     background-color: black;
 }
 
-footer {
-    padding-left: 9.45%;
+.footer_content {
     max-width: 1280px;
     height: 390px;
+    margin: auto; 
+    width: 89%;
+    padding-left: 37px;
 }
 
 a {
@@ -416,7 +451,7 @@ a {
 .elements_foot {
     display: flex;
     justify-content: space-between;
-    max-width: 81.4%;
+    max-width: 91%;
 }
 
 .ad_screen_contacts {
@@ -511,7 +546,7 @@ a {
 /* section howtowatch */
 
 .coursepoints {
-    max-width: 35%;
+    max-width: 37%;
     margin-top: 56px;
     font-size: 0.75rem;
 }
@@ -545,6 +580,7 @@ h1 {
 
 .course_descrip_photo {
     font-size: 0.87rem;
+    max-width: 90%;
 }
 
 h2 {
@@ -554,6 +590,10 @@ h2 {
 .photo_lessons_comments {
     margin-top: 30px;
     margin-bottom: 94px;
+}
+
+.main_descrip {
+    max-width: 50%;
 }
 
 .comments_list {
@@ -639,7 +679,7 @@ h2{
 
 /* section recall */
 
-#recall {
+.recall_content {
     height: 451.75px;
 }
 
@@ -676,9 +716,9 @@ h2{
     margin-bottom: 6.51%;
 }
 
-/* section schedule */
+/* section shedule */
 
-#schedule {
+.shedule_content {
     height: 451.5px;
 }
 
@@ -705,8 +745,12 @@ h2{
 
 /* section footer */
 
-footer {
+.footer_content {
     height: 225.88px;
+}
+
+.logo-sinchro {
+    width: 50%;
 }
 
 .ad_screen_contacts {
@@ -731,11 +775,16 @@ footer {
 
 .messengers {
     margin-top: 17px;
+    max-width: 85%;
+}
+
+.messengers div {
+    width: 17%;
 }
 
 .signature {
     font-size: 0.62rem;
-    margin-top: 64px;
+    margin-top: 74px;
 }
 }
 
@@ -919,7 +968,7 @@ h2 {
 
 /* section recall */
 
-#recall {
+.recall_content {
     height: 423px;
 }
 
@@ -956,9 +1005,9 @@ h2 {
     margin-bottom: 6.51%;
 }
 
-/* section schedule */
+/* section shedule */
 
-#schedule {
+.shedule_content {
     height: 363px;
 }
 
@@ -985,13 +1034,17 @@ h2 {
 
 /* section footer */
 
-footer {
+.footer_content {
     height: 251px;
+}
+
+.logo-sinchro {
+    width: 53px;
 }
 
 .ad_screen_contacts {
     padding-top: 23px;
-    min-width: 24.5%;
+    min-width: 16.9%;
 }
 
 .elements_foot {
@@ -1000,11 +1053,16 @@ footer {
 
 .contacts {
     margin-top: 47px;
-    min-width: 55%;
+    min-width: 148px;
 }
 
 .number ul li {
     font-size: 0.75rem;
+}
+
+.number ul li:first-child {
+    height: 13px;
+    width: auto;
 }
 
 .mail ul li {
@@ -1012,21 +1070,22 @@ footer {
 }
 
 .mail ul li:first-child {
-    min-width: 10%;
+    width: 13px;
+    height: auto;
 }
 
 .messengers {
     margin-top: 14px;
-    min-width: 24.5%;
+    width: 92px;
 }
 
 .messengers div {
-    min-width: 17%;
+    width: 16px;
 }
 
 .signature {
     font-size: 0.62rem;
-    margin-top: 40px;
+    margin-top: 35px;
 }
 }
 
