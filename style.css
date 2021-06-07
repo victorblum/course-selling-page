@@ -5,21 +5,21 @@ body{
     margin: 0;
 }
 
-main {
+.main_content {
     max-width: 1280px;
-    width: 89%;
+    width: 99.3%;
     margin: auto;
 }
 
-header {
+.header_content {
     margin: auto;
     max-width: 1280px;
-    width: 89%;
-    margin-top: 21px;   
+    width: 99.3%;
+    margin-top: 21px;  
 }
 
 .logotype {
-    padding-left: 37px;
+    padding-left: 37px; 
 }
 
 header img {
@@ -148,7 +148,7 @@ h1 {
 }
 
 .course_descrip_photo div img {
-    max-width: 110%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -320,7 +320,8 @@ h2 {
     height: 780px;
     max-width: 1280px;
     margin: auto; 
-    width: 89%;
+}
+.elements_rec {
     padding-left: 37px;
 }
 
@@ -391,7 +392,9 @@ h2 {
     max-width: 1280px;
     height: 780px;
     margin: auto; 
-    width: 89%;
+}
+
+.elements_sched {
     padding-left: 37px;
 }
 
@@ -434,9 +437,7 @@ footer {
 .footer_content {
     max-width: 1280px;
     height: 390px;
-    margin: auto; 
-    width: 89%;
-    padding-left: 37px;
+    margin: auto;
 }
 
 a {
@@ -452,6 +453,7 @@ a {
     display: flex;
     justify-content: space-between;
     max-width: 91%;
+    padding-left: 37px;
 }
 
 .ad_screen_contacts {
@@ -537,6 +539,7 @@ a {
     font-size: 1.12rem;
     line-height: 101.38%;
     margin-top: 140px;
+    padding-left: 37px;
 }
 
 /* @media tablet */
@@ -970,6 +973,7 @@ h2 {
 
 .recall_content {
     height: 423px;
+    width: auto;
 }
 
 .elements_rec h2 {
@@ -1009,6 +1013,7 @@ h2 {
 
 .shedule_content {
     height: 363px;
+    width: auto;
 }
 
 .elements_sched h2{
